@@ -3,8 +3,13 @@
     src: url("../font/BMHANNAAir_otf.otf");
 }
 
+* {
+    box-sizing: border-box;  /* border의 길이도 포함해서 사이즈 계산 */  /* 중요 */
+}
+
 body {
     text-align: center;
+    background-color: lightsteelblue;
 }
 
 h1 {
@@ -46,10 +51,12 @@ a {
 }
 
 #p1 {
-    border: 1px solid blue;
+    border: 5px solid blue;
     padding: 10px 60px 10px 60px; /* 상 우 하 좌 */
     margin: 70px 50px 50px 50px;
     width: 500px;  /* 가로 길이 */
+    border-radius: 50px;  /* border를 둥글게 */
+    background-color: cyan;
 
     /* 요소를 가운데 정렬 */
     margin-left: auto;  
@@ -57,10 +64,11 @@ a {
   }
 
   #p2 {
-    /* 테두리 점선 */
+    /* 테두리 점선 */ /* 파선 : dashed */
     border: 2px dotted blueviolet;
     margin: 20px;
     width: 500px;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 10px 10px 5px 10px gray;  /* 가로, 세로, 흐림도, 크기, 특정색. 의 그림자 넣기 */
   }

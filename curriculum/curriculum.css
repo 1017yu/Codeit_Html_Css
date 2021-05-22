@@ -5,13 +5,9 @@ h2 {
 }
 
 .box-odd h2{ 
-    font-size: 30px;
-    padding: 20px;
     background: #FA987D;
   }
   
 .box-even h2 {
-    font-size: 30px;
-    padding: 20px;
     background: #72CCA7;
   }

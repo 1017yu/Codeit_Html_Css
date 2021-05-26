@@ -12,6 +12,30 @@ body {
   height: 60px;
 }
 
+#menu {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu li a {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    line-height: 60px;
+}
+
+#menu li a:hover {
+    background-color: #eeeeee;
+}
+
 #logo {
   font-family: serif;
   float: left;
